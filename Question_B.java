@@ -8,10 +8,10 @@ import java.util.Scanner;
 
 
 /** Test Cases:
- * 1.2 1.1  returns -1
- * 1.1 1.1.1  returns -1
- * 3.0 2.9.9  returns 1
- * 1.1 1.1  returns 0 
+ * 1.2 1.1  // returns -1
+ * 1.1 1.1.1  // returns -1
+ * 3.0 2.9.9  // returns 1
+ * 1.1 1.1  // returns 0 
  */
 
 public class Question_B {
