@@ -23,7 +23,7 @@ public class Question_A {
 	   * We will also assume that if the end points touch, then that is not an overlap
 	   * @param args is the command line arguments 
 	   * @param args will contain the two lines, in the form of "Line1_LowerBound Line1_UpperBound Line2_LowerBound Line2_UpperBound" 
-	   * A sample input argument would be 1 2 3 4
+	   * A sample input would be 1 2 3 4
 	   * The program will print out if the lines overlap or not
 	 */
 	
