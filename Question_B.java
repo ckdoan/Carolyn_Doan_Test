@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 /**Ormuco Programming Test Question B
  * The goal of this question is to write a software library that accepts 2 version string as input and returns whether one is greater than, 
- * equal, or less than the other. As an example: ì1.2î is greater than ì1.1î. Please provide all test cases you could think of.
+ * equal, or less than the other. As an example: ‚Äú1.2‚Äù is greater than ‚Äú1.1‚Äù. Please provide all test cases you could think of.
  * @author: Carolyn Doan
  */
 
 
 /** Test Cases:
- * 1.2 1.1  -1
- * 1.1 1.1.1 -1
- * 3.0 2.9.9 1
- * 1.1 1.1 0 
+ * 1.2 1.1  returns -1
+ * 1.1 1.1.1  returns -1
+ * 3.0 2.9.9  returns 1
+ * 1.1 1.1  returns 0 
  */
 
 public class Question_B {
@@ -58,7 +58,7 @@ public class Question_B {
 	/**
 	   * @param args is the command line arguments 
 	   * @param args will contain the two versions in the form of "version1 version2" 
-	   * A sample input argument would be 1.1 1.1.1
+	   * A sample input would be 1.1 1.1.1
 	   * The program will print out the two versions and the comparison results. 
 	   		* 0 if the two versions are equal
 	   		*-1 if version1 is less than version2
